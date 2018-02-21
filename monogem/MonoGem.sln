@@ -1,7 +1,15 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGem", "MonoGem\MonoGem.csproj", "{E63E2F3C-BE4C-4868-B1DE-EC225EBA309C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{DCEA6ABA-DF61-4D06-A194-0692843B99C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFNez", "..\FFNez\Nez.Portable\FFNez.csproj", "{60B7197D-D0D5-405C-90A2-A56903E9B039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nez.PipelineImporter", "..\FFNez\Nez.PipelineImporter\Nez.PipelineImporter.csproj", "{63E831F4-B847-4150-B5AF-CBE059EE27B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nez.Fuf", "..\Nez.Fuf\Nez.Fuf\Nez.Fuf.csproj", "{7EF8EB31-B61C-4FF2-80DF-08EA2766F6C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +21,22 @@ Global
 		{E63E2F3C-BE4C-4868-B1DE-EC225EBA309C}.Debug|x86.Build.0 = Debug|x86
 		{E63E2F3C-BE4C-4868-B1DE-EC225EBA309C}.Release|x86.ActiveCfg = Release|x86
 		{E63E2F3C-BE4C-4868-B1DE-EC225EBA309C}.Release|x86.Build.0 = Release|x86
+		{60B7197D-D0D5-405C-90A2-A56903E9B039}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60B7197D-D0D5-405C-90A2-A56903E9B039}.Debug|x86.Build.0 = Debug|Any CPU
+		{60B7197D-D0D5-405C-90A2-A56903E9B039}.Release|x86.ActiveCfg = Release|Any CPU
+		{60B7197D-D0D5-405C-90A2-A56903E9B039}.Release|x86.Build.0 = Release|Any CPU
+		{63E831F4-B847-4150-B5AF-CBE059EE27B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{63E831F4-B847-4150-B5AF-CBE059EE27B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{63E831F4-B847-4150-B5AF-CBE059EE27B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{63E831F4-B847-4150-B5AF-CBE059EE27B8}.Release|x86.Build.0 = Release|Any CPU
+		{7EF8EB31-B61C-4FF2-80DF-08EA2766F6C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7EF8EB31-B61C-4FF2-80DF-08EA2766F6C4}.Debug|x86.Build.0 = Debug|Any CPU
+		{7EF8EB31-B61C-4FF2-80DF-08EA2766F6C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{7EF8EB31-B61C-4FF2-80DF-08EA2766F6C4}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{60B7197D-D0D5-405C-90A2-A56903E9B039} = {DCEA6ABA-DF61-4D06-A194-0692843B99C0}
+		{63E831F4-B847-4150-B5AF-CBE059EE27B8} = {DCEA6ABA-DF61-4D06-A194-0692843B99C0}
+		{7EF8EB31-B61C-4FF2-80DF-08EA2766F6C4} = {DCEA6ABA-DF61-4D06-A194-0692843B99C0}
 	EndGlobalSection
 EndGlobal

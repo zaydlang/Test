@@ -1,0 +1,6 @@
+[submodule "FFNez"]
+	path = FFNez
+	url = https://github.com/0xFireball/FFNez
+[submodule "Nez.Fuf"]
+	path = Nez.Fuf
+	url = https://github.com/0xFireball/Nez.Fuf
